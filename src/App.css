@@ -1,0 +1,71 @@
+.mainPanel{
+    width: 750px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 25px 50px 0 rgba(0,0,0,.1);
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e0d5f0, #baa6e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0d5f0, #baa6e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn-modal{
+    margin:0px;
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background-color: #5ab35a;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+.search-wrapper{
+    text-align: left;
+    margin-top:10px;
+}
+.faSearch{
+    color: white;
+}
+.search-wrapper input{
+    padding: 4px 6px;
+    font-size: 16px;
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top:10px;
+}
+.table{
+    margin: 10px auto;
+    border: 1px solid darkgray;
+    width: 100%;
+    text-align: left;
+    color: white;
+    border-spacing: 0px 5px;
+    border: none;
+}
+.table thead tr{
+    background-color :darkslategray;
+}
+.editBtn{
+    padding: 5px;
+    background-color: #57aece;
+    font-weight: bold;
+    border: none;
+    color: white;
+    width: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.deleteBtn{
+    padding: 5px;
+    background-color: #d3472f;
+    font-weight: bold;
+    border: none;
+    color: white;
+    width: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 2px;
+}

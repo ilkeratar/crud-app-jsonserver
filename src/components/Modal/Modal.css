@@ -1,0 +1,94 @@
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+h2{
+    margin: 0px;
+}
+.input{
+    padding: 4px 6px;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+input:focus{
+    border-color: #185a9d;
+    outline: none;
+}
+textarea{
+    resize: vertical;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    width: 33px;
+    height: 33px;
+    color: red;
+    border-radius: 100px;
+    cursor: pointer;
+}
+label{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.modalBtn{
+    max-width: 150px;
+    margin: 20px 0;
+    padding: 8px 12px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #185a9d;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.15);
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+.topMargin{
+    margin-top: 1rem;
+}
+.input-feedback{
+    color: red;
+    margin-top: 0.25rem;
+    font-size: 15px;
+    text-align: left;
+}

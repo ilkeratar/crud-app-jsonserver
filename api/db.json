@@ -1,0 +1,61 @@
+{
+  "jobs": [
+    {
+      "title": "Call Dad",
+      "description": "Call dad",
+      "priority": {
+        "id": 1,
+        "name": "Urgent",
+        "color": "#ff000096"
+      },
+      "id": 1
+    },
+    {
+      "title": "Gym",
+      "description": "Its gym day",
+      "priority": {
+        "id": 3,
+        "name": "Trivial",
+        "color": "#006bffb3"
+      },
+      "id": 2
+    },
+    {
+      "title": "Medicine",
+      "description": "Make sure take your medicine",
+      "priority": {
+        "id": 2,
+        "name": "Regular",
+        "color": "#dfa000c2"
+      },
+      "id": 3
+    },
+    {
+      "title": "Cargo",
+      "description": "Get your cargo",
+      "priority": {
+        "id": 1,
+        "name": "Urgent",
+        "color": "#ff000096"
+      },
+      "id": 4
+    }
+  ],
+  "priority": [
+    {
+      "id": 1,
+      "name": "Urgent",
+      "color": "#ff000096"
+    },
+    {
+      "id": 2,
+      "name": "Regular",
+      "color": "#dfa000c2"
+    },
+    {
+      "id": 3,
+      "name": "Trivial",
+      "color": "#006bffb3"
+    }
+  ]
+}

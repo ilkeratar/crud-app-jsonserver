@@ -6,17 +6,19 @@
       "priority": {
         "id": 1,
         "name": "Urgent",
-        "color": "#ff000096"
+        "color": "#ff000096",
+        "level": 3
       },
       "id": 1
     },
     {
       "title": "Gym",
-      "description": "Its gym day",
+      "description": "Its gym dayy",
       "priority": {
         "id": 3,
         "name": "Trivial",
-        "color": "#006bffb3"
+        "color": "#006bffb3",
+        "level": 1
       },
       "id": 2
     },
@@ -26,7 +28,8 @@
       "priority": {
         "id": 2,
         "name": "Regular",
-        "color": "#dfa000c2"
+        "color": "#dfa000c2",
+        "level": 2
       },
       "id": 3
     },
@@ -36,26 +39,52 @@
       "priority": {
         "id": 1,
         "name": "Urgent",
-        "color": "#ff000096"
+        "color": "#ff000096",
+        "level": 3
       },
       "id": 4
+    },
+    {
+      "title": "deneme",
+      "description": "deneme111",
+      "priority": {
+        "id": 3,
+        "name": "Trivial",
+        "color": "#006bffb3",
+        "level": 1
+      },
+      "id": 5
+    },
+    {
+      "title": "asfsaf",
+      "description": "asdasdasd",
+      "priority": {
+        "id": 2,
+        "name": "Regular",
+        "color": "#dfa000c2",
+        "level": 2
+      },
+      "id": 6
     }
   ],
   "priority": [
     {
       "id": 1,
       "name": "Urgent",
-      "color": "#ff000096"
+      "color": "#ff000096",
+      "level": 3
     },
     {
       "id": 2,
       "name": "Regular",
-      "color": "#dfa000c2"
+      "color": "#dfa000c2",
+      "level": 2
     },
     {
       "id": 3,
       "name": "Trivial",
-      "color": "#006bffb3"
+      "color": "#006bffb3",
+      "level": 1
     }
   ]
 }

@@ -26,7 +26,9 @@ function Tables() {
           </tr>
         </thead>
         <tbody>
-        {searchResults.map((item,key)=>{
+        {searchResults.sort((a,b)=>{
+          return b.priority.level-a.priority.level
+        }).map((item,key)=>{
             return(
               <tr key={key} style={{backgroundColor:`${item.priority.color}`}}>
                 <td>{item.title}</td>

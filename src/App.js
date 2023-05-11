@@ -14,7 +14,6 @@ function App() {
     setModal(!modal);
   }
 
-
   useEffect(() => {
     fetchJobs();
     fetchPriorities();

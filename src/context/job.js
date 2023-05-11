@@ -30,7 +30,7 @@ function Provider({children}) {
           title: updatedTitle,
           description: updatedJobDesc,
           priority:updatedPriority,
-          id:id,
+          id,
         });
         const updatedJob = jobs.map((job) => {
           if (job.id === id) {

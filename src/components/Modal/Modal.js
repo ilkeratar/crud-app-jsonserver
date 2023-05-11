@@ -9,6 +9,7 @@ import JobsContext from "../../context/job";
 
 function Modal({ toggleModal ,jobItem,jobFormUpdate }) {
     const {createJob,priorities,editJobById} = useContext(JobsContext);
+    
   return (
     <div className="modal">
       <div onClick={toggleModal} className="overlay"></div>
@@ -18,7 +19,6 @@ function Modal({ toggleModal ,jobItem,jobFormUpdate }) {
            <>
            <h2>Edit job</h2>
         <Formik
-
           initialValues={{ title:jobItem.title, description:jobItem.description, priority: jobItem.priority.name}}
           validationSchema={Yup.object({
             title: Yup.string().required("This field cannot be left blank"),
@@ -27,7 +27,7 @@ function Modal({ toggleModal ,jobItem,jobFormUpdate }) {
               .required("This field cannot be left blank")
               .oneOf([priorities[0].name, priorities[1].name, priorities[2].name]),
           })}
-          onSubmit={(values, { resetForm, setSubmitting }) => {
+          onSubmit={(values) => {
             // console.log(jobItem.id);
             const temp= priorities.filter((item)=>item.name===values.priority);
             

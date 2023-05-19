@@ -1,3 +1,9 @@
+Simple CRUD app with Json-Server and using React Hooks, Context API, Axios, Formik, Yup and more.
+
+![Joblist1](https://github.com/ilkeratar/crud-app-jsonserver/assets/74013091/08046441-aa27-4e37-aa1c-aa64a51bb6a7)
+![Joblist2](https://github.com/ilkeratar/crud-app-jsonserver/assets/74013091/38231816-d386-48ca-bbb5-bd0d7f858c47)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
